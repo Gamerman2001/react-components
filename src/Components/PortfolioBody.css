@@ -1,0 +1,13 @@
+.port-body {
+  border: blue 2px solid;
+  height: inherit;
+  padding-top: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
+  background-position: center;
+  background-image: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url('./Media/jj-jordan-j4HF-tMscQQ-unsplash.jpg');
+}
