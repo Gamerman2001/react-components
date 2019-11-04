@@ -1,0 +1,19 @@
+.header-body {
+  background: none;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  position: fixed;
+  border: red solid 2px;
+  width: 100vw;
+}
+
+.header-name {
+  text-align: center;
+  color: white;
+}
+
+.header-topics {
+  color: green;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
