@@ -16,5 +16,16 @@
 }
 
 .social-media {
-  
+  color: white;
+}
+
+.social-media > *{
+  border: white solid 1px;
+  border-radius: 50%;
+  margin: 20px;
+  padding: 15px;
+}
+
+.projects {
+
 }
