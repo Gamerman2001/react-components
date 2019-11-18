@@ -1,4 +1,5 @@
 import React from 'react'
+import {Button} from 'antd'
 import './Header.css'
 
 export default function Header() {
@@ -9,10 +10,18 @@ export default function Header() {
       </div>
 
       <div className="header-topics">
-        Home 
-        Portfolio
-        About Me 
-        Contact Me
+        <Button type="primary" shape="round"  size={'small'}>
+          Home
+        </Button>
+        <Button type="primary" shape="round"  size={'small'}>
+          Portfolio
+        </Button>
+        <Button type="primary" shape="round"  size={'small'}>
+          About Me
+        </Button>
+        <Button type="primary" shape="round"  size={'small'}>
+          Contact Me
+        </Button>
       </div>
     </div>
   )

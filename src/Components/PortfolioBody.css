@@ -1,5 +1,4 @@
 .port-body {
-  border: blue 2px solid;
   height: inherit;
   padding-top: 100px;
   background-size: cover;
@@ -27,5 +26,5 @@
 }
 
 .projects {
-
+  color: white;
 }

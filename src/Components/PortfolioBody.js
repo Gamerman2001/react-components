@@ -9,10 +9,14 @@ export default function PortfolioBody() {
         I am a DEVELOPER
       </div>
       <div className="projects">
+        project 1
+        
+        project 2
+
+        project 3
 
       </div>
       <div className="social-media">
-        <Button type='primary'>hi</Button>
         <Icon type="github" theme='filled'height='6em' width='4em'/>
         <Icon type="linkedin" />
         <Icon type="medium" />
