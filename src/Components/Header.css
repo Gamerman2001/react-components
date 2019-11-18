@@ -9,6 +9,8 @@
 .header-name {
   text-align: center;
   color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 3em;
 }
 
 .header-topics {
