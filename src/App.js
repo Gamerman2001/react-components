@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
      <Header />
+     {console.log(document.querySelector('#root'))}
      <PortfolioBody />
     </div>
   );

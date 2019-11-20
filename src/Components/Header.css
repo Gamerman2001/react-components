@@ -11,10 +11,31 @@
   color: white;
   font-family: 'Indie Flower', cursive;
   font-size: 3em;
+  width: 60px;
+  height: 60px;
+  align-content: right;
+  background: #1BA0CB;
+  position: absolute;
+  top: 0px;
+  left: 10vw;
 }
 
+.initials {
+  font-size: 1.7rem;
+  position: relative;
+  top: 25px;
+  left: 8px;
+}
 .header-topics {
   color: green;
   padding-top: 15px;
   padding-bottom: 10px;
+  font-family: 'Indie Flower', cursive;
 }
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+
+  background-color: none;
+}
+
+
+
