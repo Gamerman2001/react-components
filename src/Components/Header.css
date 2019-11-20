@@ -1,12 +1,18 @@
+.display-none {
+  display: none;
+}
+/* holds the Logo and burger menu even tho positions are absolute */
 .header-body {
+  position: fixed;
   background: none;
   padding-top: 20px;
   padding-bottom: 10px;
-  position: fixed;
   width: 100vw;
+  border: blue solid 2px;
 }
 
 .header-name {
+  position: absolute;
   text-align: center;
   color: white;
   font-family: 'Indie Flower', cursive;
@@ -15,27 +21,23 @@
   height: 60px;
   align-content: right;
   background: #1BA0CB;
-  position: absolute;
   top: 0px;
   left: 10vw;
 }
-
+/* The TG in Blue Box */
 .initials {
-  font-size: 1.7rem;
   position: relative;
+  font-size: 1.7rem;
   top: 25px;
   left: 8px;
 }
-.header-topics {
-  color: green;
-  padding-top: 15px;
-  padding-bottom: 10px;
-  font-family: 'Indie Flower', cursive;
-}
-.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
 
-  background-color: none;
+.burger-menu {
+  position: absolute;
+  right: 10%;
+  top: 50%;
 }
+
 
 
 

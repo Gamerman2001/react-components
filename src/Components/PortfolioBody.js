@@ -7,7 +7,9 @@ export default function PortfolioBody() {
   return (
     <div className="port-body">
       <div className="word-wrap">
-        I am a DEVELOPER
+        <h1>Hi! My name is Troy.</h1>
+
+        <h3> I'm a developer who is based out of NY & D.C.</h3>
       </div>
       <div className="projects">
         <Projects />

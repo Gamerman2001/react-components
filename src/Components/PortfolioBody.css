@@ -1,4 +1,5 @@
 .port-body {
+  box-sizing: border-box;
   height: inherit;
   padding-top: 100px;
   background-size: cover;
@@ -8,11 +9,23 @@
                      rgba(20,20,20, .5), 
                      rgba(20,20,20, .5)),
                      url('./Media/jj-jordan-j4HF-tMscQQ-unsplash.jpg');
+top: 40vh;
 }
-
+/* set default styles for elements h1 h2 h3 etc. */
+.port-body h1{
+  color: white;
+  font-weight: bold;
+}
+.port-body h3{
+  color: white;
+}
+/* set default styles for elements h1 h2 h3 etc. */
+/* self introduction */
 .word-wrap {
   color: white;
 }
+/* self introduction */
+
 
 .social-media {
   color: white;
