@@ -1,7 +1,10 @@
-import React from 'react'
-import Projects from './Projects'
-import { Button, Icon } from 'antd'
-import './PortfolioBody.css'
+import React from "react";
+import Projects from "./Projects";
+import SocialMedia from "./SocialMedia";
+import AboutMe from "./AboutMe";
+import Contact from "./Contact";
+import { Button, Icon } from "antd";
+import "./PortfolioBody.css";
 
 export default function PortfolioBody() {
   return (
@@ -14,13 +17,13 @@ export default function PortfolioBody() {
       <div className="projects">
         <Projects />
       </div>
+      <div className="about-me">
+        <AboutMe />
+      </div>
+      
       <div className="social-media">
-        <Icon type="github" theme='filled'height='6em' width='4em'/>
-        <Icon type="linkedin" />
-        <Icon type="medium" />
-        <Icon type="twitter" />
-
+        <SocialMedia />
       </div>
     </div>
-  )
+  );
 }

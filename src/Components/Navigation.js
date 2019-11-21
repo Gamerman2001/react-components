@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Button, Menu, Icon } from "antd";
-import "./Header.css";
+import "./Navigation.css";
 import HeaderTopics from './HeaderTopics'
 
-export default function Header() {
+export default function Navigation() {
   useEffect(() => {
     const redblock = () => {
       let headerName = document.querySelector(".header-name");

@@ -6,17 +6,18 @@
   background-repeat: no-repeat;
   background-position: center;
   background-image: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url('./Media/jj-jordan-j4HF-tMscQQ-unsplash.jpg');
-top: 40vh;
+      rgba(20, 20, 20, 0.5),
+      rgba(20, 20, 20, 0.5)
+    ),
+    url("./Media/jj-jordan-j4HF-tMscQQ-unsplash.jpg");
+  top: 40vh;
 }
 /* set default styles for elements h1 h2 h3 etc. */
-.port-body h1{
+.port-body h1 {
   color: white;
   font-weight: bold;
 }
-.port-body h3{
+.port-body h3 {
   color: white;
 }
 /* set default styles for elements h1 h2 h3 etc. */
@@ -25,18 +26,6 @@ top: 40vh;
   color: white;
 }
 /* self introduction */
-
-
-.social-media {
-  color: white;
-}
-
-.social-media > *{
-  border: white solid 1px;
-  border-radius: 50%;
-  margin: 20px;
-  padding: 15px;
-}
 
 .projects {
   color: white;

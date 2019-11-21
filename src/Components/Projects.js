@@ -6,8 +6,8 @@ const { Meta } = Card;
 export default function Projects() {
 
   return (
-    <div>
+    <>
       
-    </div>
+    </>
   )
 }

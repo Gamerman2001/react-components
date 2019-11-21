@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function MenuPage() {
+export default function Contact() {
   return (
     <div>
-      
+      Contact me here
     </div>
   )
 }

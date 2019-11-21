@@ -4,9 +4,9 @@
   padding-top: 15px;
   padding-bottom: 10px;
   top: 10%;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
 }
 /* this has to do with the color when slected for full menu */
-.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected.change-ant{
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected.change-ant {
   background-color: rgba(121, 114, 114, 0);
 }

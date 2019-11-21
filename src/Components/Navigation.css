@@ -8,19 +8,18 @@
   padding-top: 20px;
   padding-bottom: 10px;
   width: 100vw;
-  border: blue solid 2px;
 }
 
 .header-name {
   position: absolute;
   text-align: center;
   color: white;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   font-size: 3em;
   width: 60px;
   height: 60px;
   align-content: right;
-  background: #1BA0CB;
+  background: #1ba0cb;
   top: 0px;
   left: 10vw;
 }
@@ -37,7 +36,3 @@
   right: 10%;
   top: 50%;
 }
-
-
-
-
