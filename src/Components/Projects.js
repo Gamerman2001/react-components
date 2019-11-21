@@ -7,7 +7,7 @@ export default function Projects() {
 
   return (
     <>
-      
+      Projects will go here 
     </>
   )
 }

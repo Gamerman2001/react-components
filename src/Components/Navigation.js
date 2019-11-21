@@ -17,7 +17,7 @@ export default function Navigation() {
         <div className="initials">TG</div>
       </div>
       <div className="burger-menu">
-        <Icon type="menu" style={{fontSize:"2em"}}/>
+        <Icon type="menu" style={{fontSize:"1.4em"}}/>
       </div>
       
     </div>

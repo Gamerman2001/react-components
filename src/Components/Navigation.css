@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:900&display=swap');
 .display-none {
   display: none;
 }
@@ -29,6 +30,8 @@
   font-size: 1.7rem;
   top: 25px;
   left: 8px;
+  font-family: 'Exo', sans-serif;
+  letter-spacing: 1px;
 }
 
 .burger-menu {
