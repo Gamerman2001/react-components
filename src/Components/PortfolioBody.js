@@ -2,25 +2,21 @@ import React from "react";
 import Projects from "./Projects";
 import SocialMedia from "./SocialMedia";
 import AboutMe from "./AboutMe";
+import Intro from "./Intro";
 import Contact from "./Contact";
+import { Route, Switch } from "react-router-dom";
 import { Button, Icon } from "antd";
 import "./PortfolioBody.css";
 
 export default function PortfolioBody() {
   return (
     <div className="port-body">
-      <div className="word-wrap">
-        <h1>Hi! My name is Troy.</h1>
-
-        <h3> I'm a developer who is based out of NY & D.C.</h3>
-      </div>
-      <div className="projects">
-        <Projects />
-      </div>
-      <div className="about-me">
-        <AboutMe />
-      </div>
-      
+      <Switch>
+          <Route path="/" exact component={Intro} />
+          <Route path="/projects" exact component={Projects} />
+          <Route path="/about" exact component={AboutMe} />
+          <Route path="/contact" exact component={Contact} />
+      </Switch>
       <div className="social-media">
         <SocialMedia />
       </div>

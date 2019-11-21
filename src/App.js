@@ -1,16 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
-import Header from './Components/Navigation'
+import Navigation from './Components/Navigation'
 import PortfolioBody from './Components/PortfolioBody'
+import {BrowserRouter as Router} from 'react-router-dom'
 import './App.css';
 
 
 function App() {
   return (
     <div className="App">
-     <Header />
-     {console.log(document.querySelector('#root'))}
-     <PortfolioBody />
+     <Navigation />
+     <Router>
+       <PortfolioBody />
+     </Router>
+     
     </div>
   );
 }
