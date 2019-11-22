@@ -16,6 +16,8 @@
   position: fixed;
   right: 10%;
   top: 3%;
+  z-index: 3;
+  color: white
 }
 /* set default styles for elements h1 h2 h3 etc. */
 .port-body h1 {

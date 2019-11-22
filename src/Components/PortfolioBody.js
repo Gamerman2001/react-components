@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Projects from "./Projects";
 import SocialMedia from "./SocialMedia";
 import AboutMe from "./AboutMe";
@@ -10,11 +10,20 @@ import { Button, Icon } from "antd";
 import "./PortfolioBody.css";
 
 export default function PortfolioBody() {
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="port-body">
-      <Link to="/menu">
-        <div className="burger-menu ">
-          <Icon type="menu" style={{ fontSize: "1.4em" }} />
+      <Link
+        to={showMenu ? "/" : "/menu"}
+        onClick={() => {
+          setShowMenu(!showMenu);
+        }}
+      >
+        <div className="burger-menu">
+          <Icon
+            type={showMenu ? "close" : "menu"}
+            style={{ fontSize: "1.4em" }}
+          />
         </div>
       </Link>
       <Switch>
