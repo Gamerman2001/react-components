@@ -14,15 +14,16 @@ export default function Navigation() {
   }, []);
   return (
     <div className="header-body">
-      <Link to='/'>
+      <Link to="/">
         <div className="header-name">
           <div className="initials">TG</div>
         </div>
       </Link>
-
-      <div className="burger-menu">
-        <Icon type="menu" style={{ fontSize: "1.4em" }} />
-      </div>
+      <Link to='/menu'>
+        <div className="burger-menu">
+          <Icon type="menu" style={{ fontSize: "1.4em" }} />
+        </div>
+      </Link>
     </div>
   );
 }
