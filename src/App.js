@@ -9,14 +9,10 @@ function App() {
   const [menu, setMenu] = useState(false);
   return (
     <div className="App">
-      {menu ? (
-        <MenuPage />
-      ) : (
         <Router>
           <Navigation />
           <PortfolioBody />
         </Router>
-      )}
     </div>
   );
 }

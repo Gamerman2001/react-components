@@ -12,6 +12,11 @@
     url("./Media/jj-jordan-j4HF-tMscQQ-unsplash.jpg");
   top: 40vh;
 }
+.burger-menu {
+  position: fixed;
+  right: 10%;
+  top: 3%;
+}
 /* set default styles for elements h1 h2 h3 etc. */
 .port-body h1 {
   color: white;

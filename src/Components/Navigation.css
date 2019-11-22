@@ -9,6 +9,7 @@
   padding-top: 20px;
   padding-bottom: 10px;
   width: 100vw;
+
 }
 
 .header-name {
@@ -34,8 +35,4 @@
   letter-spacing: 1px;
 }
 
-.burger-menu {
-  position: absolute;
-  right: 10%;
-  top: 50%;
-}
+

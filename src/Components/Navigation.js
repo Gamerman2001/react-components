@@ -19,11 +19,6 @@ export default function Navigation() {
           <div className="initials">TG</div>
         </div>
       </Link>
-      <Link to='/menu'>
-        <div className="burger-menu">
-          <Icon type="menu" style={{ fontSize: "1.4em" }} />
-        </div>
-      </Link>
     </div>
   );
 }
