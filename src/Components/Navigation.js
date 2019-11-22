@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Button, Menu, Icon } from "antd";
+import { Link } from "react-router-dom";
 import "./Navigation.css";
-import HeaderTopics from './HeaderTopics'
+import HeaderTopics from "./HeaderTopics";
 
 export default function Navigation() {
   useEffect(() => {
@@ -13,13 +14,15 @@ export default function Navigation() {
   }, []);
   return (
     <div className="header-body">
-      <div className="header-name">
-        <div className="initials">TG</div>
-      </div>
+      <Link to='/'>
+        <div className="header-name">
+          <div className="initials">TG</div>
+        </div>
+      </Link>
+
       <div className="burger-menu">
-        <Icon type="menu" style={{fontSize:"1.4em"}}/>
+        <Icon type="menu" style={{ fontSize: "1.4em" }} />
       </div>
-      
     </div>
   );
 }
