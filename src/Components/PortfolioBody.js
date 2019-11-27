@@ -32,6 +32,7 @@ export default function PortfolioBody() {
         <Route path="/projects" exact component={Projects} />
         <Route path="/about" exact component={AboutMe} />
         <Route path="/contact" exact component={Contact} />
+        <Route component={Intro} />
       </Switch>
       <div className="social-media">
         <SocialMedia />

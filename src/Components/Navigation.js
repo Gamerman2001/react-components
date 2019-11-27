@@ -12,9 +12,14 @@ export default function Navigation() {
 
     redblock();
   }, []);
+  
+  const showMenuSet = (params) => {
+    console.log('clicked on the thing')
+  }
+  
   return (
     <div className="header-body">
-      <Link to="/">
+      <Link to="/" onClick={showMenuSet}>
         <div className="header-name">
           <div className="initials">TG</div>
         </div>
