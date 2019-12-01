@@ -6,10 +6,10 @@ import {Link} from 'react-router-dom'
 export default function SocialMedia() {
   return (
     <div className="social-media">
-        <Link><Icon type="github" theme="filled" height="6em" width="4em" /></Link>    
-        <Link><Icon type="linkedin" /></Link>    
-        <Link><Icon type="medium" /></Link>    
-        <Link><Icon type="twitter" /></Link>    
+        <a href="https://github.com/Gamerman2001"><Icon type="github"  /></a>
+        <a href=""><Icon type="linkedin" />  </a>
+        <a href=""><Icon type="medium" /></a>
+        <a href=""><Icon type="twitter" /></a> 
       </div>
   )
 }
