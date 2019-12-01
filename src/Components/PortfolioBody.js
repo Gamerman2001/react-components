@@ -34,7 +34,7 @@ export default function PortfolioBody() {
         <Route path="/contact" exact component={Contact} />
         <Route component={Intro} />
       </Switch>
-      <div className="social-media">
+      <div >
         <SocialMedia />
       </div>
     </div>
