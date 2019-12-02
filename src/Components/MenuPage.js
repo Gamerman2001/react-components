@@ -4,7 +4,10 @@ export default function MenuPage() {
   return (
     <div className='menu-page'>
       <div className="menu-items">
-        test
+        Home 
+        Projects
+        About
+        Contact Me
       </div>
       <div className="top-background"></div>
       <div className="bottom-background"></div>
