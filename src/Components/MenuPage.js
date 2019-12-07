@@ -3,23 +3,22 @@ import "./MenuPage.css";
 import { Link } from "react-router-dom";
 
 export default function MenuPage({ setMenu }) {
+  const routes = () => {
+    const linkRoutes = ["/", "projects", "about", "contact"];
+    const linkNames = ["Home", "Projects", "About", "Contact Me"];
+    return linkRoutes.map((route, index) => {
+      return (
+        <Link to={route} onClick={() => setMenu()}>
+          {linkNames[index]}
+        </Link>
+      );
+    });
+  };
   return (
     <div className="menu-page">
-      {console.log(setMenu)}
       <div className="top-background">
         <div className="menu-items">
-          <Link to="/" onClick={() => setMenu()}>
-            Home
-          </Link>
-          <Link to="projects" onClick={() => setMenu()}>
-            Projects{" "}
-          </Link>
-          <Link to="about" onClick={() => setMenu()}>
-            About{" "}
-          </Link>
-          <Link to="contact" onClick={() => setMenu()}>
-            Contact Me
-          </Link>
+          {routes()}
         </div>
       </div>
       <div className="bottom-background">
