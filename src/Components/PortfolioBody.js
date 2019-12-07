@@ -11,6 +11,10 @@ import "./PortfolioBody.css";
 
 export default function PortfolioBody() {
   const [showMenu, setShowMenu] = useState(false);
+  const setShowMenuFunction = () => {
+    console.log('executing function')
+    setShowMenu(false);
+  };
   return (
     <div className="port-body">
       <Link
@@ -28,13 +32,17 @@ export default function PortfolioBody() {
       </Link>
       <Switch>
         <Route path="/" exact component={Intro} />
-        <Route path="/menu" exact component={MenuPage} />
+        <Route
+          path="/menu"
+          exact
+          render={() => <MenuPage setMenu={setShowMenuFunction} />}
+        />
         <Route path="/projects" exact component={Projects} />
         <Route path="/about" exact component={AboutMe} />
         <Route path="/contact" exact component={Contact} />
         <Route component={Intro} />
       </Switch>
-      <div >
+      <div>
         <SocialMedia />
       </div>
     </div>
