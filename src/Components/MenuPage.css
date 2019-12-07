@@ -10,10 +10,14 @@
 }
 
 .top-background {
+  background: lightblue;
+  height: 50vh;
 
 }
 
 .bottom-background {
+  background: magenta;
+  height: 50vh;
   
 }
 .menu-items {

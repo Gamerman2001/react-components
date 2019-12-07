@@ -8,9 +8,9 @@ export default function MenuPage() {
       <div className="top-background">
         <div className="menu-items">
           <Link to='/'>Home</Link>
-          <Link>Projects </Link>
-          <Link>About </Link>
-          <Link>Contact Me</Link>
+          <Link to='projects'>Projects </Link>
+          <Link to='about'>About </Link>
+          <Link to='contact'>Contact Me</Link>
           </div>
       </div>
       <div className="bottom-background"></div>
