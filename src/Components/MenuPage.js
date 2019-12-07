@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 export default function MenuPage({ setMenu }) {
   const routes = () => {
     const linkRoutes = ["/", "projects", "about", "contact"];
+    // LINK NAMES CORRESPOND WITH LINK ROUTES
     const linkNames = ["Home", "Projects", "About", "Contact Me"];
     return linkRoutes.map((route, index) => {
       return (
