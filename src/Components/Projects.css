@@ -1,3 +1,10 @@
  .projects {
-
+  display: grid;
+  grid-template-columns: 50vw;
+  grid-template-rows: 23vh 23vh 23vh;
+  justify-content: center;
+}
+.projects__project1, .projects__project2, .projects__project3 {
+  background-color: #1ba0cb;
+  margin-bottom: 10px;
 }
