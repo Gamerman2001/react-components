@@ -1,7 +1,6 @@
 .menu-page {
   color: black;
   position: fixed;
-  right: 22px;
   top: 0px;
   z-index: 2;
   width: 100vw;
@@ -23,13 +22,21 @@
   color: white;
   display: grid;
   justify-content: end;
-  padding-top: 25%;
+  padding-top: 13vh;
+  padding-right: 10%;
 }
 .menu-items__home, .menu-items__projects, .menu-items__about, .menu-items__contact-me {
   color: white;
   padding-bottom: 2em;
   padding-right: 1em;
 }
-.initials {
+.initials-menu {
+  position: absolute;
+  left: 20px;
+  border: red 2px solid
+}
+.initials-menu > h1 {
   color: white;
+  background: blue;
+  font-size: 15rem;
 }

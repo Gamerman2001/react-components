@@ -23,7 +23,7 @@ export default function MenuPage({ setMenu }) {
         </div>
       </div>
       <div className="bottom-background">
-        <div className="initials">TG</div>
+        <div className="initials-menu"><h1>TG</h1></div>
       </div>
     </div>
   );

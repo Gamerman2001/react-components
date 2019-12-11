@@ -30,7 +30,7 @@ export default function PortfolioBody() {
           />
         </div>
       </Link>
-      <Switch>
+      <Switch >
         <Route path="/" exact component={Intro} />
         <Route
           path="/menu"
