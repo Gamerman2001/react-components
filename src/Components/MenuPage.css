@@ -1,6 +1,5 @@
 .menu-page {
   color: black;
-  background-color: blue;
   position: fixed;
   right: 22px;
   top: 0px;
@@ -22,6 +21,14 @@
 }
 .menu-items {
   color: white;
+  display: grid;
+  justify-content: end;
+  padding-top: 25%;
+}
+.menu-items__home, .menu-items__projects, .menu-items__about, .menu-items__contact-me {
+  color: white;
+  padding-bottom: 2em;
+  padding-right: 1em;
 }
 .initials {
   color: white;

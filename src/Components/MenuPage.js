@@ -9,7 +9,7 @@ export default function MenuPage({ setMenu }) {
     const linkNames = ["Home", "Projects", "About", "Contact Me"];
     return linkRoutes.map((route, index) => {
       return (
-        <Link to={route} onClick={() => setMenu()}>
+        <Link to={route} className={`menu-items__${linkNames[index].toLowerCase().split(' ').join('-')}`} onClick={() => setMenu()}>
           {linkNames[index]}
         </Link>
       );
