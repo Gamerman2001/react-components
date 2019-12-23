@@ -26,12 +26,15 @@
   justify-content: end;
   padding-top: 13vh;
   padding-right: 10%;
+
 }
 .menu-items__home, .menu-items__projects, .menu-items__about, .menu-items__contact-me {
   color: white;
   padding-bottom: 2em;
   padding-right: 1em;
+  
 }
+
 .initials-menu {
   display: grid;
   justify-content: start;

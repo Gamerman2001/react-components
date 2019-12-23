@@ -1,16 +1,17 @@
 .about-me {
+  height: 65vh;
   background-color: red;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 9rem 100% auto repeat(5, 10px);
+  grid-template-columns: 40px 50px auto 50px 40px  ;
+  grid-template-rows: 25% 100px auto;
   
 }
 .about-me__heading {
-  grid-column-start: 1;
-  grid-column-end: 3;
+  
   background-color: orange;
 }
 .about-me__body {
 background: blue;
+
 
 }
