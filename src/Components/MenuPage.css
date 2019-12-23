@@ -9,13 +9,13 @@
 }
 
 .top-background {
-  background: lightblue;
+  background: #c8a05e;
   height: 50vh;
 
 }
 
 .bottom-background {
-  background: magenta;
+  background: #e29518;
   height: 50vh;
   
 }
@@ -32,7 +32,6 @@
   padding-right: 1em;
 }
 .initials-menu {
-  border: solid 2px red;
   display: grid;
   justify-content: start;
   grid-template-columns: 2rem 1rem;
