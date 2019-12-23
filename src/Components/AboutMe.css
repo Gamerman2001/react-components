@@ -1,12 +1,14 @@
 .about-me {
   background-color: red;
   display: grid;
-  grid-template:
-    "about-me_heading" auto
-    "about-me_body" 80vw;
+  grid-template-columns: 1fr;
+  grid-template-rows: 9rem 100% auto repeat(5, 10px);
+  
 }
 .about-me__heading {
-
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: orange;
 }
 .about-me__body {
 background: blue;
