@@ -7,4 +7,10 @@
 .projects__project1, .projects__project2, .projects__project3 {
   background-color: #1ba0cb;
   margin-bottom: 10px;
+  color: white;
+}
+
+.projects__project1 > h2 > i, .projects__project2 > i, .projects__project3 > i {
+  font-size: 2em;
+  color: white;
 }

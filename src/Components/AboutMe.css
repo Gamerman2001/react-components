@@ -1,9 +1,14 @@
 .about-me {
   background-color: red;
+  display: grid;
+  grid-template:
+    "about-me_heading" auto
+    "about-me_body" 80vw;
 }
 .about-me__heading {
 
 }
 .about-me__body {
 background: blue;
+
 }

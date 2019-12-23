@@ -35,6 +35,7 @@
   border: solid 2px red;
   display: grid;
   justify-content: start;
+  grid-template-columns: 2rem 1rem;
 }
 .initials-menu > h1 {
   color: white;
@@ -43,4 +44,5 @@
   display: absolute;
   border: 2px solid orange;
   line-height: 0.9em;
+ 
 }
