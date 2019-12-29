@@ -21,6 +21,10 @@ export default function Contact() {
           Company:
           <input type="text" value={form} onChange={handleChange} name="name" />
         </label>
+        <label>
+          Email:
+          <input type="text" value={form} onChange={handleChange} name="name" />
+        </label>
         <input type="submit" value="Submit" />
       </form>
     </div>
