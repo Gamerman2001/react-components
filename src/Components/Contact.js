@@ -1,7 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Contact.css"
 
+
+
+
 export default function Contact() {
+  const [form, setForm] = useState('');
+  const handleChange = (event) => {
+    setForm(event.target.value);
+  }
   return (
     <div className="contact">
       <form>
@@ -14,3 +21,4 @@ export default function Contact() {
     </div>
   );
 }
+
