@@ -5,28 +5,28 @@ import "./Contact.css"
 
 
 export default function Contact() {
-  const [form, setForm] = useState('');
-  const [name, setName] = useState('');
+  const [form, setForm] = useState({name: '', company: '', email: ''});
+  const [name, setName] = useState({name: 'test', company: 'whooo', email: ''});
   const [company, setCompany] = useState('');
 
   const handleChange = (event) => {
-    setForm(event.target.value);
-    console.log(event.target.value)
+    setForm({[event.target.name]: event.target.value});
+    console.log(event.target.name)
   }
   return (
     <div className="contact">
       <form>
         <label>
           Name:
-          <input type="text" value={form} onChange={handleChange} name="name" />
+          <input type="text" value={form.name} onChange={handleChange} name="name" />
         </label>
         <label>
           Company:
-          <input type="text" value={form} onChange={handleChange} name="name" />
+          <input type="text" value={form.company} onChange={handleChange} name="company" />
         </label>
         <label>
           Email:
-          <input type="text" value={form} onChange={handleChange} name="name" />
+          <input type="text" value={form.emal} onChange={handleChange} name="email" />
         </label>
         <input type="submit" value="Submit" />
       </form>
