@@ -6,8 +6,6 @@ import "./Contact.css"
 
 export default function Contact() {
   const [form, setForm] = useState({name: '', company: '', email: ''});
-  const [name, setName] = useState({name: 'test', company: 'whooo', email: ''});
-  const [company, setCompany] = useState('');
 
   const handleChange = (event) => {
     setForm({[event.target.name]: event.target.value});
