@@ -14,3 +14,10 @@
   font-size: 2em;
   color: white;
 }
+
+.projects__project1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./Media/react-resort.png");
+}
