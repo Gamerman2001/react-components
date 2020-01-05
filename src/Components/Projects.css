@@ -10,9 +10,9 @@
   color: white;
 }
 
-.projects__project1 > h2 > i, .projects__project2 > i, .projects__project3 > i {
-  font-size: 2em;
-  color: white;
+.projects__project1 > a, .projects__project2 > a, .projects__project3 > a {
+  display: block;
+  height: 100%;
 }
 
 .projects__project1 {
@@ -20,4 +20,9 @@
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("./Media/react-resort.png");
+}
+.projects__project2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./Media/rps-hero.png");
 }
