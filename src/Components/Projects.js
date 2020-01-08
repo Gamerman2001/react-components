@@ -14,9 +14,7 @@ export default function Projects() {
       <a href="https://eddgr.github.io/rps-hero"> RPS Hero</a>
       </div>
       <div className="projects__project3">
-        Affirm Action
-        <Icon type="github" />
-        <h3>testing this too</h3>
+      <a href="https://twitch-tv.netlify.com"> Twitch TV</a>
       </div>
     </div>
   );
