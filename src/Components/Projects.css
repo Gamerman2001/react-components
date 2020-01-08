@@ -26,3 +26,8 @@
   background-repeat: no-repeat;
   background-image: url("./Media/rps-hero.png");
 }
+.projects__project3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./Media/twitch-tv.png");
+}

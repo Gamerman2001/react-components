@@ -32,3 +32,35 @@ function testing() {
   return ' hi im a test'
 }
 console.log(testing())
+
+let pinkyPromise = new Promise((resolve, reject) => {
+  let returnNumber = 5 + 5
+  if (returnNumber === 10) {
+    resolve('yes this was the correct number')
+  } else {
+    reject('man we made a mistake somewhere')
+  }
+})
+
+pinkyPromise.then(goodMessage => {
+  console.log(goodMessage)
+}).catch(badMessage => {
+  console.log(badMessage)
+})
+
+let pinkyPromise1 = new Promise((resolve)=> {
+  resolve('This has to be returned')
+})
+let pinkyPromise2 = new Promise((resolve)=> {
+  resolve('This also has to be returned')
+})
+let pinkyPromise3 = new Promise((resolve)=> {
+  setTimeout(() => {
+    resolve('finally this also needs to be returned')
+  }, 3000);
+  
+})
+
+Promise.all([pinkyPromise1, pinkyPromise2, pinkyPromise3]).then(allMessages =>{
+  console.log(allMessages)
+})
