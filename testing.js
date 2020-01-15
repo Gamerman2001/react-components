@@ -64,3 +64,19 @@ let pinkyPromise3 = new Promise((resolve)=> {
 Promise.all([pinkyPromise1, pinkyPromise2, pinkyPromise3]).then(allMessages =>{
   console.log(allMessages)
 })
+
+function kangaroo(x1, v1, x2, v2) { 
+  let flag= true; 
+  let result= "NO"; 
+  let y = 0;
+   while(flag){ 
+     y++; 
+     result = ( (x1+v1) ===(x2+v2) ? "YES" : "NO"); if(result === "YES"){ 
+       flag = false; } 
+        x1 = x1+v1;
+        x2 = x2+v2; 
+        if(y> 1000000){ 
+          return result; 
+        } 
+      } 
+        return result; }
