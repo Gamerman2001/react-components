@@ -5,20 +5,25 @@ import "./Intro.css";
 export default function Intro() {
   useEffect(() => {
     var options = {
-      strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
-      typeSpeed: 150
+
+
+
+
+      strings: ["^2000 testing ^2000 still in first", "<i>First</i> ^2000 sentence.", "&amp; a second sentence."],
+      typeSpeed: 100
     };
 
-    var typed = new Typed(".typing", options);
+   new Typed(".typing", options);
     
   });
 
   return (
     <div className="intro">
       <h1>Hi! My name is Troy.</h1>
-      <h3 className="typing"> </h3>
+      <h3 className="typing"> Testing this out</h3>
       <h3> I'm a developer who is based out of NY & D.C.</h3>
       <h3>Some Tech I Work With:</h3>
+    
       <img
         alt="css3"
         src="https://img.icons8.com/color/48/000000/css3.png"
