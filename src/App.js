@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import MenuPage from "./Components/MenuPage";
 import Navigation from "./Components/Navigation";
 import PortfolioBody from "./Components/PortfolioBody";
