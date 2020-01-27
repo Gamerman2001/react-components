@@ -5,19 +5,28 @@ import "./Intro.css";
 export default function Intro() {
   useEffect(() => {
     var options = {
-      strings: ["I am a", "I am a Developer^1000", "I am a Genius", "I am a Human", "I am a .........", "I am a Digital Alchemist who is based out of NY &amp; D.C."],
+      strings: ["I am a", "I am a Developer^1000", "I am a Code Monkey", "I am a Human", "I am a .........", "I am a Digital Alchemist"],
       typeSpeed: 80,
       smartBackspace: true
     };
 
    new Typed(".typing", options);
-    
+  const timer = setTimeout(() => {
+    let typing = document.querySelector('.delayed-type')
+    typing.innerHTML = 'Based out of N.Y. & D.C.'
+  }, 12000);
+  
   });
-
+ const putWord = ()=> {
+    return 'hi'
+    }
+   
+     
   return (
     <div className="intro">
       <h1>Hi! My name is Troy.</h1>
       <h3> <span className="typing"> </span></h3>
+      <h3 className='delayed-type'> </h3>
       <br/>
       <h3>Some Tech I Work With:</h3>
     
