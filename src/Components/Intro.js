@@ -5,8 +5,8 @@ import "./Intro.css";
 export default function Intro() {
   useEffect(() => {
     var options = {
-      strings: ["I am a", "I am a Developer ^1000", "I am a Genius", "I am a Human", "I am a .........", "I am a Digital Alchemist who is based out of NY &amp; D.C."],
-      typeSpeed: 100,
+      strings: ["I am a", "I am a Developer^1000", "I am a Genius", "I am a Human", "I am a .........", "I am a Digital Alchemist who is based out of NY &amp; D.C."],
+      typeSpeed: 80,
       smartBackspace: true
     };
 

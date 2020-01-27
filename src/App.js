@@ -7,6 +7,9 @@ import "./App.css";
 
 function App() {
   const [menu, setMenu] = useState(false);
+  const user = () => {
+    return 5 + 6 
+  } 
   return (
     <div className="App">
         <Router>
