@@ -11,13 +11,14 @@ export default function Intro() {
     };
 
    new Typed(".typing", options);
-  
+  const timer = setTimeout(() => {
+    let typing = document.querySelector('.delayed-type')
+    typing.innerHTML = 'Based out of N.Y. & D.C.'
+  }, 12000);
   
   });
  const putWord = ()=> {
-  return setTimeout(() => {
     return 'hi'
-  }, 3000);
     }
    
      
@@ -25,7 +26,7 @@ export default function Intro() {
     <div className="intro">
       <h1>Hi! My name is Troy.</h1>
       <h3> <span className="typing"> </span></h3>
-      {()=> {return <h3>heeeey</h3>}}
+      <h3 className='delayed-type'> </h3>
       <br/>
       <h3>Some Tech I Work With:</h3>
     
