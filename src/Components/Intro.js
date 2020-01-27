@@ -5,19 +5,27 @@ import "./Intro.css";
 export default function Intro() {
   useEffect(() => {
     var options = {
-      strings: ["I am a", "I am a Developer^1000", "I am a Genius", "I am a Human", "I am a .........", "I am a Digital Alchemist who is based out of NY &amp; D.C."],
+      strings: ["I am a", "I am a Developer^1000", "I am a Code Monkey", "I am a Human", "I am a .........", "I am a Digital Alchemist"],
       typeSpeed: 80,
       smartBackspace: true
     };
 
    new Typed(".typing", options);
-    
+  
+  
   });
-
+ const putWord = ()=> {
+  return setTimeout(() => {
+    return 'hi'
+  }, 3000);
+    }
+   
+     
   return (
     <div className="intro">
       <h1>Hi! My name is Troy.</h1>
       <h3> <span className="typing"> </span></h3>
+      {()=> {return <h3>heeeey</h3>}}
       <br/>
       <h3>Some Tech I Work With:</h3>
     
