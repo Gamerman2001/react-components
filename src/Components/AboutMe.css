@@ -10,7 +10,6 @@
   grid-column-end: span 5;
   grid-row-start: 1;
   grid-row-end: 1;
-
 }
 .about-me__body {
   align-self: stretch;
@@ -18,4 +17,6 @@
   grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: span 3;
+  padding: 5em;
+  color: orange;
 }
